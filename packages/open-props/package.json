@@ -9,15 +9,14 @@
   "repository": "https://www.github.com/facebook/stylex",
   "license": "MIT",
   "scripts": {
-    "build": "python build.py && tsc --build"
+    "build": "node build.js && python build.py && tsc --build"
   },
   "dependencies": {
     "@stylexjs/stylex": "0.6.1"
   },
   "devDependencies": {
-    "@stylexjs/scripts": "0.6.1"
+    "open-props": "^1.7.4"
   },
-  "jest": {},
   "files": [
     "lib/*"
   ]
