@@ -1,0 +1,10 @@
+{
+  "include": ["open-props.stylex.ts"],
+  "compilerOptions": {
+    "outDir": "lib",
+    "module": "ESNext",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "moduleResolution": "Node",
+    "strict": true
+  }
+}
